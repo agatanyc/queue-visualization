@@ -1,4 +1,2 @@
-Visualization of a `queue` DS using tow `stacks` DS.
-
-///Users/agata/projects/queue_visualization/index.htmlXXX:
+Visualization of a `queue` DS using two `stacks` DS.
 
