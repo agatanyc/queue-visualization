@@ -93,6 +93,15 @@ Queue.prototype.dequeue = function() {
  
 var queue = new Queue();
 svg.appendChild(queue.svgElement);
+
+var buttonAdd = document.getElementById("buttonAdd")
+var valueAdd = document.getElementById("valueAdd")
+var buttonRemove = document.getElementById("buttonRemove")
+
+buttonAdd.onclick = function(event) {
+    queue.enqueue(valueAdd.value)
+}
+buttonRemove.onclick = function(event) {queue.dequeue()}
  
 queue.enqueue(10);
 queue.enqueue(1);
@@ -107,4 +116,4 @@ queue.dequeue();
 queue.enqueue(12);
 queue.dequeue();
 queue.dequeue();
-queue.dequeue();
+//queue.dequeue();

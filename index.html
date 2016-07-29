@@ -1,7 +1,51 @@
 <!doctype html>
 <html>
-    <head></head>
+    <head>
+        <style>
+        #buttonAdd {
+            background-color: #FFC107;
+            width: 200px;
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+            font-weight: bold;
+            font-family: monospace;
+            font-size: 20px;
+            box-sizing: border-box;
+            cursor: pointer
+        }
+        #buttonRemove {
+            background-color: #FBC107;
+            width: 200px;
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+            font-weight: bold;
+            font-family: monospace;
+            font-size: 20px;
+            display: inline-block;
+            cursor: pointer
+        }
+        #valueAdd {
+            padding: 6px 6px 6px 6px;
+            width: 200px;
+            box-sizing: border-box;
+        }
+        #addCointainer {
+            display: inline-block;
+        }
+        #menuCointainer {
+            display: inline-block;
+        }
+
+        </style>
+    </head>
     <body>
+        <div id="menuCointainer">
+              <div id="addCointainer">
+                <input id="valueAdd" type="text">
+                <div id="buttonAdd">ADD ELEMENT</div>
+            </div>
+            <div id="buttonRemove">REMOVE ELEMENT</div>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>
